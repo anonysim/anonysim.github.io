@@ -1,0 +1,95 @@
+
+
+/*This is a comment in css*/
+/* ctrl+/ is the comment shortcut */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(238, 238, 238);
+    color: rgb(43, 42, 41);
+}
+
+
+/*** Navigation ***/
+
+#main-nav {
+    letter-spacing: 0.3rem;
+    font-variant: all-small-caps;
+    font-weight: 700;
+    background-color: #727272;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: 1.5rem;
+    text-align: right;
+}
+.pages {
+    display: inline;
+}
+.pages a {
+    color: rgb(43, 42, 41);
+    font-size: 1.35rem;
+    text-decoration: none;
+    line-height: 1.7rem;
+}
+.pages a:visited {
+    color: rgb(214, 214, 214);
+}
+.pages a:hover {
+    color: #8bb1bb;
+}
+
+
+/*** Headings & Paragraphs ***/
+
+h1, h2, h3 {
+    color: rgb(43, 42, 41);
+    font-family:'Courier New', Courier, monospace;
+    font-variant: all-small-caps;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;    
+    text-shadow: 0rem .2rem .2rem rgb(182, 182, 182);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+ul, li {
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(43, 42, 41);
+}
+.em {
+    font-size: 0.95rem;
+}
+
+/*** Footer & Return***/
+#footer a {
+    text-decoration: none;
+    color: rgb(43, 42, 41);
+}
+#footer a:hover {
+    color: #8bb1bb;
+}
+
+#top {
+    font-variant: all-small-caps;
+    font-weight: 700;
+}
+#top a {
+    text-decoration: none;
+    color: #8bb1bb;
+}
+#top a:hover {
+    color: rgb(43, 42, 41);
+}
