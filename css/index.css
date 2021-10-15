@@ -74,6 +74,9 @@ p {
 }
 
 /*** Footer & Return***/
+#footer p {
+    font-size: 0.75rem;
+}
 #footer a {
     text-decoration: none;
     color: rgb(43, 42, 41);
@@ -82,7 +85,7 @@ p {
     color: #8bb1bb;
 }
 
-#top {
+.top {
     font-variant: all-small-caps;
     font-weight: 700;
 }
