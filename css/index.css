@@ -11,7 +11,7 @@ body {
 
 
 .icon-row1 {
-    height: 4vh;
+    height: 6vh; /*increased value to fix cut off from week 7 submission*/
     background-image: url(/img//coffee-bean-32px.png);
     background-repeat:repeat-x;
 }
