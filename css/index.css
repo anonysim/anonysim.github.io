@@ -10,16 +10,22 @@ body {
 }
 
 
+.icon-row1 {
+    height: 4vh;
+    background-image: url(/img//coffee-bean-32px.png);
+    background-repeat:repeat-x;
+}
+
 /*** Navigation ***/
 
 #main-nav {
     letter-spacing: 0.3rem;
     font-variant: all-small-caps;
-    font-weight: 700;
-    background-color: #727272;
-    font-family:'Courier New', Courier, monospace;
+    /*font-weight: 700; *removed*/
+    /*background-color: #727272; *removed*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     word-spacing: 1.5rem;
-    text-align: right;
+    text-align: center;
 }
 .pages {
     display: inline;
@@ -31,26 +37,46 @@ body {
     line-height: 1.7rem;
 }
 .pages a:visited {
-    color: rgb(214, 214, 214);
+    color: rgb(138, 138, 138);
 }
 .pages a:hover {
-    color: #8bb1bb;
+    color: #967f6a;
 }
 
+
+/*** Header ***/
+header {
+    height: 50vh;
+    background-image: url(../img/work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.work-pic {
+    font-size: 14px;
+    color: #000;
+}
+.work-pic a {
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+.work-pic a:hover {
+    color:rgb(177, 177, 177)
+}
 
 /*** Headings & Paragraphs ***/
 
 h1, h2, h3 {
     color: rgb(43, 42, 41);
-    font-family:'Courier New', Courier, monospace;
-    font-variant: all-small-caps;
-    letter-spacing: 0.3rem;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-variant: all-small-caps; *removed*/
+    /*letter-spacing: 0.3rem; *removed*/
+    font-weight: 600;
 }
 
 h1 {
     font-size: 2rem;    
-    text-shadow: 0rem .2rem .2rem rgb(182, 182, 182);
+    text-shadow: 0rem .2rem .2rem rgb(211, 211, 211);
 }
 
 h2 {
@@ -58,41 +84,58 @@ h2 {
 }
 ul, li {
     list-style-type: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
+}
+ul, li a {
+    text-decoration: none;
+    color:rgb(43, 42, 41);
+}
+ul li, a:hover {
+    color: #78966a;
+}
+ul, li a:visited {
+    color: rgba(rgb(112, 112, 112), green, blue, alpha)
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
+.section1 p::first-letter {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgb(43, 42, 41);
 }
 .em {
-    font-size: 0.95rem;
+    font-size: 1.3rem;
 }
 
 /*** Footer & Return***/
-#footer p {
-    font-size: 0.75rem;
+#footer span {
+    font-size: 1.2rem;
 }
-#footer a {
+#footer span a {
     text-decoration: none;
     color: rgb(43, 42, 41);
+    font-size: 1.2rem;
 }
-#footer a:hover {
-    color: #8bb1bb;
+#footer span a:hover {
+    color: #967f6a;
 }
 
-.top {
+#top {
     font-variant: all-small-caps;
-    font-weight: 700;
+    /*font-weight: 700; *removed*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
 }
 #top a {
     text-decoration: none;
-    color: #8bb1bb;
+    color: black;
 }
 #top a:hover {
-    color: rgb(43, 42, 41);
+    color: #967f6a;
 }
