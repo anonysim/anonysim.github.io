@@ -1,0 +1,151 @@
+/* CSS reset */
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+ /* end of CSS reset */
+
+ #wrapper {
+     width: 70vw;
+     margin: 0 auto;
+ }
+
+ /*** Generic 1/2***/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+/*** Navigation ***/
+#main-nav {
+    letter-spacing: 0.3rem;
+    font-variant: all-small-caps;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*word-spacing: 1.5rem; *replaced with padding below*/
+    text-align: center;
+}
+.pages {
+    display: inline;
+    padding: 1rem;
+}
+.pages a {
+    color: rgb(43, 42, 41);
+    font-size: 1.35rem;
+    text-decoration: none;
+    line-height: 1.7rem;
+}
+.pages a:visited {
+    color: rgb(138, 138, 138);
+}
+.pages a:hover {
+    color: #967f6a;
+}
+
+/*** Header ***/
+header {
+    height: 82vh;
+    background-image: url(../img/pumpkin-pie-1024px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 1em;
+}
+#attribution {
+    text-align: right;
+    padding-right: .5rem;
+}
+.pumpkin-pie {
+    color: white;
+    font-size: 14px;
+}
+.pumpkin-pie a {
+    color: white;
+    text-decoration: none;
+}
+.pumpkin-pie a:hover {
+    color:black;
+}
+
+.introduction {
+    width: 60%;
+    height: 70%;
+    padding: 2% 0.5% 1% 0%;
+    margin-left: 20%;
+    border: black double;
+    border-radius: 1em;
+    overflow: scroll;
+    
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 1.05rem;
+}
+/*W3SCHOOLS HIDDEN SCROLLBAR CSS*/
+.introduction::-webkit-scrollbar {
+    display: none;
+}
+/*W3SCHOOLS CSS END HERE*/
+
+.introduction h1 {
+    line-height: 1.7rem;
+}
+.introduction h2 {
+    line-height: 0.5rem;
+    font-size: 20px;
+}
+.introduction strong {
+    font-variant: all-small-caps;
+}
+.introduction a {
+    text-decoration: none;
+    color: rgb(110, 90, 73);
+}
+.introduction a:hover {
+    color: rgb(70, 83, 53);
+}
+
+/** Ingredients & Directions **/
+#recipe, #directions, #nutrition, #watch {
+    border: inset;
+    padding: 1rem;
+    border-radius: 1em;
+}
+.ingredients, .steps, .nutrition-info, .video {
+    padding-left: 1.2rem;
+}
+
+/** Generic 2/2 **/
+ul strong {
+    font-variant: all-small-caps;
+}
+
+/* Video */
+.video {
+    padding-bottom: 2.5rem;
+}
+iframe {
+    width: 50vw;
+    height: 56vh;
+    border-radius: 1em;
+}
+ /** Footer/Copyright **/
+ footer p {
+     text-align: center;
+     background-color: rgb(233, 233, 233);
+
+     padding: 2rem;
+     margin: 0;
+     border-radius: 50px;
+     font-size: 18px;
+ }
+ footer a {
+     color: rgb(173, 118, 73);
+     text-decoration: none;
+ }
+ footer a:hover {
+     color: darkgray;
+ }

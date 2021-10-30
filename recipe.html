@@ -4,75 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/recipe.css">
     <title>Pumpkin Pie Recipe</title>
 </head>
 <body>
 
-<!---Beginning of page content--->
-    <nav> 
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/recipe.html">Recipe</a></li>
-            <li><a href="/form.html">Form</a></li>
-        </ul>
-    </nav>
-<!---End of navigation--->
-
-    <h1>Perfect Pumpkin Pie</h1>
-    <h2>By Eagle brand</h2>
-
-    <img src="/img/pumpkin-pie-512px.jpg" alt="Pumpkin Pie on the table next to pumpkins">
-    <p>Image Attribution: <a href="https://commons.wikimedia.org/wiki/File:Pumpkin_Pie.jpg">Peggy Greb</a>, <br> Public domain, via Wikimedia Commons</p>
-
-    <p>The one and only! EAGLE BRAND&reg; makes this traditional dessert the perfect ending to a Thanksgiving feast.</p>
-
-    <p>
-    Prep: 15 min<br>
-    Cook: 55 min<br>
-    Total: 70 min<br>
-    Servings: 8<br>
-    Yield: 1 - 9 inch pie
-    </p>
-
-<!---Ingredients--->
-    <h2>Ingredients</h2>
-    <h3>Ingredient Checklist</h3>
-
-<ul>
-    <li>1 (15 ounce) can pumpkin</li>
-    <li>1 (14 ounce) can EAGLE BRAND&reg; Sweetened Condensed Milk</li>
-    <li>2 large eggs large eggs</li>
-    <li>1 teaspoon ground cinnamon</li>
-    <li>&frac12; teaspoon ground ginger</li>
-    <li>&frac12; teaspoon ground nutmeg</li>
-    <li>&frac12; teaspoon salt</li>
-    <li>1 (9 inch) unbaked pie crust</li>
-</ul>
-
-<!---Directions--->
-    <h2>Directions</h2>
-    <h3>Instructions Checklist</h3>
-
-<ol>
-    <li>Preheat oven to 425 degrees F. Whisk pumpkin, sweetened condensed milk, eggs, spices and salt in medium bowl until smooth. Pour into crust. Bake 15 minutes.</li>
-    <li>Reduce oven temperature to 350 degrees F and continue baking 35 to 40 minutes or until knife inserted 1 inch from crust comes out clean. Cool. Garnish as desired. Store leftovers covered in refrigerator.</li>
-</ol>
-
-<!---Nutrition Facts--->
-    <h3>Nutrition Facts</h3>
-    <p>Per Serving: 379 calories; protein 5.9g; carbohydrates 30.5g; fat 14.3g; cholesterol 64mg; sodium 352.1mg.</p>
-
-<!---Video Embed--->
-    <h2>Watch!</h2>
-    <h3>How to Make Pumpkin Pie</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4RwOPRv2B8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!---Credits--->
-    <p>&copy; Copyright 2021 allrecipes.com. All rights reserved.</p>
-    <p>Recipe Source: <a href="https://www.allrecipes.com/recipe/23439/perfect-pumpkin-pie/" target="_blank">Perfect Pumpkin Pie Recipe</a></p>
-
-<!---End of page content--->
+<div id="wrapper">
+    <!--- Navigation --->
+        <nav id="main-nav">
+            <ul>
+                <li class="pages"><a href="/index.html">Home</a></li>
+                <li class="pages"><a href="/about.html">About</a></li>
+                <li class="pages"><a href="/recipe.html">Recipe</a></li>
+                <li class="pages"><a href="/form.html">Form</a></li>
+            </ul>
+        </nav>
+    
+    <!-- Header -->
+        <header>
+            <p id="attribution"><span class="pumpkin-pie">Image Attribution: <a href="https://commons.wikimedia.org/wiki/File:Pumpkin_Pie.jpg">Peggy Greb</a>, <br> Public domain, via Wikimedia Commons</span></p>
+    
+            <div class="introduction">
+                <h1>Perfect Pumpkin Pie</h1>
+                <h2>By Eagle Brand</h2>
+                <p>The one and only! <strong>EAGLE BRAND&reg;</strong> makes this traditional dessert the perfect ending to a Thanksgiving feast.</p>
+                <p>
+                    Prep: 15 min<br>
+                    Cook: 55 min<br>
+                    Total: 70 min<br>
+                    Servings: 8<br>
+                    Yield: 1 - 9 inch pie
+                </p>
+                <p><a href="#recipe">Jump to Recipe</a></p>
+            </div>
+        </header>
+    
+        <!---
+        <h1>Perfect Pumpkin Pie</h1>
+        <h2>By Eagle brand</h2>
+    
+        <img src="/img/pumpkin-pie-512px.jpg" alt="Pumpkin Pie on the table next to pumpkins">
+        <p>Image Attribution: <a href="https://commons.wikimedia.org/wiki/File:Pumpkin_Pie.jpg">Peggy Greb</a>, <br> Public domain, via Wikimedia Commons</p>
+    
+        <p>The one and only! EAGLE BRAND&reg; makes this traditional dessert the perfect ending to a Thanksgiving feast.</p>
+    
+    
+        <p>
+        Prep: 15 min<br>
+        Cook: 55 min<br>
+        Total: 70 min<br>
+        Servings: 8<br>
+        Yield: 1 - 9 inch pie
+        </p>
+        --->
+    
+    <!--- Ingredients --->
+        <h2 id="recipe">Ingredients</h2>
+        <div class="ingredients">
+            <h3>Ingredient Checklist</h3>
+    
+            <ul>
+                <li>1 (15 ounce) can pumpkin</li>
+                <li>1 (14 ounce) can <strong>EAGLE BRAND&reg;</strong> Sweetened Condensed Milk</li>
+                <li>2 large eggs large eggs</li>
+                <li>1 teaspoon ground cinnamon</li>
+                <li>&frac12; teaspoon ground ginger</li>
+                <li>&frac12; teaspoon ground nutmeg</li>
+                <li>&frac12; teaspoon salt</li>
+                <li>1 (9 inch) unbaked pie crust</li>
+            </ul>
+        </div>
+    
+    <!--- Directions --->
+        <h2 id="directions">Directions</h2>
+        <div class="steps">
+            <h3>Instructions Checklist</h3>
+    
+            <ol>
+                <li>Preheat oven to 425 degrees F. Whisk pumpkin, sweetened condensed milk, eggs, spices and salt in medium bowl until smooth. Pour into crust. Bake 15 minutes.</li>
+                <li>Reduce oven temperature to 350 degrees F and continue baking 35 to 40 minutes or until knife inserted 1 inch from crust comes out clean. Cool. Garnish as desired. Store leftovers covered in refrigerator.</li>
+            </ol>
+        </div>
+    
+    <!--- Nutrition Facts --->
+        <h3 id="nutrition">Nutrition Facts</h3>
+        <div class="nutrition-info">
+            <p>Per Serving: 379 calories; protein 5.9g; carbohydrates 30.5g; fat 14.3g; cholesterol 64mg; sodium 352.1mg.</p>
+        </div>
+    
+    <!--- Video Embed --->
+        <h2 id="watch">Watch!</h2>
+        <div class="video">
+            <h3>How to Make Pumpkin Pie</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4RwOPRv2B8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    <!--- Credits --->
+        <footer>
+            <p>&copy; Copyright 2021 allrecipes.com. All rights reserved. Recipe Source: <a href="https://www.allrecipes.com/recipe/23439/perfect-pumpkin-pie/" target="_blank">Perfect Pumpkin Pie Recipe</a></p>
+        </footer>
+    <!--- End of page content --->
+</div>
 
 </body>
 </html>
