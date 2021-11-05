@@ -11,27 +11,36 @@ html {
 /*This is a comment in css*/
 /* ctrl+/ is the comment shortcut */
 
+/*** Google Fonts
+font-family: 'Philosopher', sans-serif;
+font-family: 'Quicksand', sans-serif;
+***/
+
+#wrapper {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 0rem 1.5rem 0.5rem 1.5rem;
+}
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color:rgb(238, 238, 238);
     color: rgb(43, 42, 41);
 }
 
-
+/*
 .icon-row1 {
-    height: 6vh; /*increased value to fix cut off from week 7 submission*/
+    height: 6vh;
     background-image: url(/img//coffee-bean-32px.png);
     background-repeat:repeat-x;
 }
+*/
 
 /*** Navigation ***/
 
 #main-nav {
     letter-spacing: 0.3rem;
     font-variant: all-small-caps;
-    /*font-weight: 700; *removed*/
-    /*background-color: #727272; *removed*/
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Philosopher', sans-serif;
     word-spacing: 1.5rem;
     text-align: center;
 }
@@ -76,7 +85,7 @@ header {
 
 h1, h2, h3 {
     color: rgb(43, 42, 41);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Philosopher', sans-serif;
     /*font-variant: all-small-caps; *removed*/
     /*letter-spacing: 0.3rem; *removed*/
     font-weight: 600;
@@ -106,7 +115,7 @@ ul, li a:visited {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .section1 p::first-letter {
@@ -123,12 +132,12 @@ p {
 
 /*** Footer & Return***/
 #footer span {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
 }
 #footer span a {
     text-decoration: none;
     color: rgb(43, 42, 41);
-    font-size: 1.2rem;
+    font-size: 0.95rem;
 }
 #footer span a:hover {
     color: #967f6a;
@@ -136,8 +145,7 @@ p {
 
 #top {
     font-variant: all-small-caps;
-    /*font-weight: 700; *removed*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Philosopher', sans-serif;
     text-align: right;
 }
 #top a {

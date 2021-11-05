@@ -12,10 +12,21 @@ html {
 /*This is a comment in css*/
 /* ctrl+/ is the comment shortcut */
 
+/*Google Fonts
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+*/
+
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:rgb(238, 238, 238);
+    font-family: 'Quicksand', sans-serif;
+    background-color:#eeeeee;
     color: rgb(43, 42, 41);
+}
+#wrapper {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 0rem 1.5rem 0.5rem 1.5rem;
 }
 
 
@@ -23,12 +34,20 @@ body {
 
 #main-nav {
     letter-spacing: 0.3rem;
+    height: 2rem;
+    font-family: 'Mulish', sans-serif;
     font-variant: all-small-caps;
-    font-weight: 700;
-    background-color: #727272;
-    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
     word-spacing: 1.5rem;
-    text-align: right;
+    text-align: center;
+    background-color: #e2e2e2;
+
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0;
 }
 .pages {
     display: inline;
@@ -40,26 +59,40 @@ body {
     line-height: 1.7rem;
 }
 .pages a:visited {
-    color: rgb(214, 214, 214);
+    color: #797979;
 }
 .pages a:hover {
     color: #8bb1bb;
+}
+
+/*** Biography ***/
+
+.bio-pic {
+    max-width: 40%;
+    padding: 20px;
+    border: 1px outset;
+    float: left;
+    margin-right: 10px;
+    shape-outside: inset;
+}
+.bio {
+    text-align: justify;
 }
 
 
 /*** Headings & Paragraphs ***/
 
 h1, h2, h3 {
-    color: rgb(43, 42, 41);
-    font-family:'Courier New', Courier, monospace;
-    font-variant: all-small-caps;
-    letter-spacing: 0.3rem;
-    font-weight: bold;
+    color: #3f3f3f;
+    /*letter-spacing: 0.3rem;*/
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
 }
 
 h1 {
     font-size: 2rem;    
     text-shadow: 0rem .2rem .2rem rgb(182, 182, 182);
+    text-align: center;
 }
 
 h2 {
@@ -67,7 +100,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0;
 }
 
 p {
@@ -75,16 +110,25 @@ p {
     color: rgb(43, 42, 41);
 }
 
-.strong {
-    color: #7899a1;
+ol,li .favorites {
+    list-style-type:decimal;
 }
 
-ol,li .favorites {
-    list-style-type:decimal-leading-zero;
+hr {
+    border: none;
+    height: 1px;
+    background-color: #9b9b9b;
+    clear: both;
 }
 
 
 /*** Footer & Return***/
+#footer {
+    height: 70px;
+    padding: 2px 4px;
+    bottom: 0;
+    background-color: #e2e2e2;
+}
 #footer p {
     font-size: 0.75rem;
 }
@@ -97,8 +141,10 @@ ol,li .favorites {
 }
 
 #top {
-    font-variant: all-small-caps;
+    font-family: 'Mulish', sans-serif;
+    text-align: right;
     font-weight: 700;
+    margin-top: 10px;
 }
 #top a {
     text-decoration: none;
