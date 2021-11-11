@@ -32,9 +32,20 @@ h1, h3 {
     font-family: 'Mitr', sans-serif;
     font-weight: 400;
  }
+
  img {
      width: 350px;
  }
+
+figcaption a {
+    text-decoration: none;
+    color: #8f672c;
+    font-style: italic;
+}
+figcaption a:hover {
+    color: black;
+}
+
  p::first-letter {
      font-weight: bold;
  }
