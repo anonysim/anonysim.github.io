@@ -19,8 +19,9 @@ font-family: 'Mitr', sans-serif;
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #ffffff;
-    color: #111111;
+    background-color: #fff;
+    color: #111;
+    font-size: 1rem;
 }
 
 #wrapper {
@@ -34,9 +35,12 @@ h1, h3 {
  }
 
  img {
-     width: 350px;
+     width: 240px;
  }
 
+figcaption {
+    font-size: 12px;
+}
 figcaption a {
     text-decoration: none;
     color: #8f672c;
@@ -55,12 +59,12 @@ figcaption a:hover {
     margin-top: 6%;
     margin-bottom: 2%;
     letter-spacing: 4px;
+    font-size: 1.5rem;
 }
 
 nav {
-    height: 70px;
+    height: 60px;
     background-color: #fff;
-    margin-bottom: 1%;
     padding-top: 4px;
 
     position: -webkit-sticky;
@@ -76,7 +80,7 @@ nav ul {
      list-style-type: none;
 }
 .pages {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-transform: lowercase;
 }
 .pages a {
@@ -159,8 +163,10 @@ hr.two {
     text-align: justify;
     margin-left: 6%;
     margin-right: 6%;
+    margin: auto;
     color: #111111;
-    margin-bottom: 31px;
+    margin-bottom: 30px;
+    width: 250px;
 }
 
 footer, hr.two {
@@ -169,7 +175,7 @@ footer, hr.two {
 
 /* FOOTER */
 #footer {
-    font-size: 1rem;
+    font-size: 13px;
 }
 #footer a {
     text-decoration: none;
@@ -186,7 +192,7 @@ span#top {
 span#top a {
     text-decoration: none;
     color: olive;
-    font-size: 1.3rem;
+    font-size: 14px;
 }
 span#top a:hover {
     color: #111;
