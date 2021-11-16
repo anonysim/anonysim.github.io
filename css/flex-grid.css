@@ -197,3 +197,28 @@ span#top a {
 span#top a:hover {
     color: #111;
 }
+
+ /* MEDIA QUERY */
+ @media ( max-width: 600px ) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    #wrapper {
+        max-width: 80vw; 
+    }
+
+    nav {
+        padding-right: 10%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .row2-left, .row2-middle, .row2-right, .row4-left, .row4-middle, .row4-right {
+        margin-bottom: 15%;
+    }
+    
+}
