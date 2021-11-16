@@ -26,7 +26,8 @@ body {
     font-variant: all-small-caps;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     /*word-spacing: 1.5rem; *replaced with padding below*/
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 .pages {
     display: inline;
@@ -148,4 +149,75 @@ iframe {
  }
  footer a:hover {
      color: darkgray;
+ }
+
+ /* MEDIA QUERY */
+
+ @media ( max-width: 600px ) {
+
+    #wrapper {
+        max-width: 80vw;
+    }
+
+    #main-nav {
+        text-align: center;
+        letter-spacing: 0rem;
+        padding-right: 10%;
+    }
+    .pages {
+        padding: 0.2rem;
+    }
+    .pages a {
+        font-size: 1rem;
+    }
+
+    header {
+        height: 80vh;
+    }
+    p#attribution {      
+        line-height: 8px;
+        padding-right: 12px;
+        padding-top: 8px;
+    }
+    .pumpkin-pie {
+        font-size: 0.6rem;   
+    }
+    .introduction {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+    .introduction h1 {
+        font-size: 1.4rem;
+    }
+    .introduction h2 {
+        font-size: 1rem;
+    }
+    .introduction p {
+        font-size: 0.9rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .steps ol, .ingredients ul, .nutrition-info p {
+        font-size: 1.1rem;
+    }
+
+    iframe {
+        width: 62vw;
+        height: 173px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        padding: 12px;
+        width: 100%;
+    }
  }
