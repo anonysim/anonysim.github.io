@@ -57,12 +57,14 @@ body {
     font-size: 1.35rem;
     text-decoration: none;
     line-height: 1.7rem;
+    transition: color 0.5s;
 }
 .pages a:visited {
     color: #797979;
 }
 .pages a:hover {
     color: #8bb1bb;
+    transition: color 0.5s;
 }
 
 /*** Biography ***/
@@ -74,7 +76,17 @@ body {
     float: left;
     margin-right: 10px;
     shape-outside: inset;
+    animation: slide ease-in-out 2s;
 }
+@keyframes slide {
+    0% {
+        transform: translate3d(400px, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
 .bio {
     text-align: justify;
 }
@@ -93,6 +105,22 @@ h1 {
     font-size: 2rem;    
     text-shadow: 0rem .2rem .2rem rgb(182, 182, 182);
     text-align: center;
+}
+.name {
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 h2 {
@@ -135,9 +163,11 @@ hr {
 #footer a {
     text-decoration: none;
     color: rgb(43, 42, 41);
+    transition: color 0.5s;
 }
 #footer a:hover {
     color: #8bb1bb;
+    transition: color 0.5s;
 }
 
 #top {
@@ -149,7 +179,9 @@ hr {
 #top a {
     text-decoration: none;
     color: #8bb1bb;
+    transition: color 0.5s;
 }
 #top a:hover {
     color: rgb(43, 42, 41);
+    transition: color 0.5s;
 }
