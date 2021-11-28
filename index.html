@@ -48,11 +48,14 @@
             </ul>
         </nav>
     
+
     <!--- Header --->
         <header>
             <p><span class="work-pic">Photo by <a href="https://unsplash.com/@nickmorrison?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Morrison</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></p>
         </header>
     
+
+        <p id="pScript"></p>
     <!--- Content --->
         <section class="section1">
             <h1 id="return">My Web Design Journey</h1>
@@ -73,6 +76,8 @@
                 <li><a href="/">Assignment 7 &mdash; The Box Model</a></li>
                 <li><a href="/">Assignment 8 &mdash; Google Fonts, Float, Favicon</a></li>
                 <li><a href="/flex-grid.html">Assignment 9 &mdash; Flexbox & Grid</a></li>
+                <li><a href="/flex-grid.html">Assignment 10 &mdash; Responsive Web Design</a></li>
+                <li><a href="/about.html">Assignment 11 &mdash; Transforms & Transitions</a></li>
             </ul>
         </section>
     
@@ -87,5 +92,36 @@
 </div>
 <!---End of page content--->
 
+    <!--- JavaScript --->
+
+    <script>
+
+        //this is a script comment-out for a singular line
+        /*this is a script comment-out for multiple lines*/
+
+        //sending something to the console 
+        console.log ("console log element");
+
+        //a popup on the screen
+        alert("Welcome! This is my documented web design journey.")
+
+        /* prompts elicit a response from user
+        var are containers that store information */
+        var fname = prompt("Mind telling me your first name?");
+        var lname = prompt("Sorry to pry, but how about your last name?");
+        console.log("Thank you, " + fname + " " + lname + "! Welcome to the console log.");
+
+        document.getElementById("pScript").innerHTML = "Thank you, " + fname + " " + lname + "! Welcome to the site."
+    
+    </script>
+
+<!-- 
+    including an external JavaScript file
+
+    <script src=js/name.js></script> 
+-->
+
 </body>
+
+
 </html>
